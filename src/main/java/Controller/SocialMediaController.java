@@ -32,6 +32,7 @@ public class SocialMediaController {
     private final MessageService messageService = new MessageService();
 
     // Method to define all API endpoints
+    //added to confirm commit
     public Javalin startAPI() {
         Javalin app = Javalin.create();
         app.get("example-endpoint", this::exampleHandler);
